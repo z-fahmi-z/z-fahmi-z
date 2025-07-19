@@ -19,7 +19,7 @@ I'm a **Software Developer** with **almost 2 years of experience in Java**. I en
 ### 📫 Contact
 
 - 📧 Email: fahmi.zaid1412@gmail.com  
-- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/zulfahmizaid/)  
+- 💼 LinkedIn: [linkedin.com/in/zulfahmizaid](https://www.linkedin.com/in/zulfahmizaid/)  
 
 
 Thanks for stopping by! 🚀
