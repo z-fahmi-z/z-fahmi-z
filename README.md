@@ -1,9 +1,9 @@
 # Hi, I'm Zulfahmi👋
 
-## 🧑‍💻 About Me
+### 🧑‍💻 About Me
 I'm a **Software Developer** with **almost 2 years of experience in Java**. I enjoy creating efficient, clean, and scalable back-end systems, and I'm constantly expanding my skills in full-stack development.
 
-## 🛠️ Current Tech Stack
+### 🛠️ Current Tech Stack
 
 <p>
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" />
@@ -16,13 +16,10 @@ I'm a **Software Developer** with **almost 2 years of experience in Java**. I en
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </p>
 
----
-
-## 📫 Contact
+### 📫 Contact
 
 - 📧 Email: fahmi.zaid1412@gmail.com  
 - 💼 LinkedIn: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/zulfahmizaid/)  
 
----
 
 Thanks for stopping by! 🚀
