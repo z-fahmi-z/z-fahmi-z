@@ -1,7 +1,7 @@
 # Hi, I'm Zulfahmi👋
 
 ### 🧑‍💻 About Me
-I'm a **Software Developer** with **almost 2 years of experience in Java**. I enjoy creating efficient, clean, and scalable back-end systems, and I'm constantly expanding my skills in full-stack development.
+I enjoy creating efficient, clean, and scalable back-end systems, and I'm constantly expanding my skills in full-stack development.
 
 ### 🛠️ Current Tech Stack
 
