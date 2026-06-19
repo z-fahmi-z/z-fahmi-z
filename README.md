@@ -20,6 +20,37 @@
   </div>
 </blockquote>
 
+
+<h3>Projects</h3>
+
+<table align="center" style="width: 100%; border-collapse: collapse;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 12px; border: 1px solid #ddd; text-align: center;">Project</th>
+      <th style="padding: 12px; border: 1px solid #ddd; text-align: center;">Description</th>
+      <th style="padding: 12px; border: 1px solid #ddd; text-align: center;">Tools</th>
+      <th style="padding: 12px; border: 1px solid #ddd; text-align: center;">Cloud Provider</th>
+      <th style="padding: 12px; border: 1px solid #ddd; text-align: center;">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 12px; border: 1px solid #ddd; text-align: center;"><a href="https://github.com/z-fahmi-z/secure-multi-az-ecs-deployment">Secured Multi-AZ ECS Deployment</a></td>
+      <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">Deploys a production-grade <a href="https://github.com/z-fahmi-z/journal-starter">Journal API</a> on AWS using ECS Fargate across multiple Availability Zones. The architecture incorporates security best practices, including private subnets, VPC endpoints, least-privilege IAM roles, and encrypted secrets management, with observability via CloudWatch and CloudTrail.</td>
+      <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">Python, Terraform, AWS (ECS, Fargate, RDS, ALB, ACM), GitHub Actions</td>
+      <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">AWS</td>
+      <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">🟡 Building</td>
+    </tr>  
+    <tr>
+      <td style="padding: 12px; border: 1px solid #ddd; text-align: center;"><a href="https://github.com/z-fahmi-z/config-management">Configuration Management</a></td>
+      <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">Deploys a static web game <a href="https://github.com/z-fahmi-z/void-runner">Void Runner</a> to the cloud using Terraform for provisioning and Ansible for configuration, including basic security hardening.</td>
+      <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">Terraform, Ansible, Nginx, Linux, Bash</td>
+      <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">DigitalOcean</td>
+      <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">✅ Completed</td>
+    </tr>  
+  </tbody>
+</table>
+
 <h3>Tech Stacks</h3>
 <div align="center" style="width: 80%; margin: 0 auto;">
   <img src="https://img.shields.io/badge/-Java-FFFFFF?style=flat&logo=coffeescript&logoColor=black" />
