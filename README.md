@@ -25,8 +25,8 @@
 <table align="center" style="width: 100%; border-collapse: collapse;">
   <thead>
     <tr style="background-color: #f2f2f2;">
-      <th style="padding: 12px; border: 1px solid #ddd; text-align: center; width: auto;">Project</th>
-      <th style="padding: 12px; border: 1px solid #ddd; text-align: center; width: auto;">Description</th>
+      <th style="padding: 12px; border: 1px solid #ddd; text-align: center; width: auto;">Repositories</th>
+      <th style="padding: 12px; border: 1px solid #ddd; text-align: center; width: auto;">Descriptions</th>
       <th style="padding: 12px; border: 1px solid #ddd; text-align: center; width: auto;">Tools &amp; Platform</th>
       <th style="padding: 12px; border: 1px solid #ddd; text-align: center; width: auto;">Status</th>
     </tr>
