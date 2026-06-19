@@ -22,7 +22,7 @@
 
 <h3>Stats</h3>
 <p align="center">
-  <img height="180" width="48%" src="https://github-readme-stats.vercel.app/api?username=z-fahmi-z&show_icons=true&theme=dracula&hide_border=true&hide=stars&include_all_commits=true" alt="Your GitHub stats" />
+  <img height="180" width="48%" src="https://github-readme-stats.vercel.app/api?username=z-fahmi-z&show_icons=true&theme=dracula&hide_border=true" alt="Your GitHub stats" />
   <img height="180" width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=z-fahmi-z&theme=dracula&hide_border=true" alt="GitHub Streak" />
 </p>
 
