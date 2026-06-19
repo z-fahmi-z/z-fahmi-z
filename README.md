@@ -20,7 +20,13 @@
   </div>
 </blockquote>
 
-<h2>Tech Stacks</h2>
+<h3>Stats</h3>
+<p align="center">
+  <img height="195" src="https://github-readme-stats.vercel.app/api?username=z-fahmi-z&show_icons=true&theme=dracula&hide_border=true" alt="Your GitHub stats" />
+  <img height="195" src="https://github-readme-streak-stats.herokuapp.com/?user=z-fahmi-z&theme=dracula&hide_border=true" alt="GitHub Streak" />
+</p>
+
+<h3>Tech Stacks</h3>
 <div align="center" style="width: 80%; margin: 0 auto;">
   <img src="https://img.shields.io/badge/-Java-FFFFFF?style=flat&logo=coffeescript&logoColor=black" />
   <img src="https://img.shields.io/badge/-Groovy-4298B8?style=flat&logo=apachegroovy&logoColor=white" />
