@@ -33,7 +33,7 @@
   <tbody>
     <tr>
       <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">EKS + GitOps Deployment</td>
-      <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">Deploys the <a href="https://github.com/z-fahmi-z/journal-starter">Journal API</a> on AWS using EKS with a complete CI/CD pipeline. Features include cluster provisioning, service mesh, auto-scaling, and GitOps-driven deployments.</td>
+      <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">Deploys the <a href="https://github.com/learntocloud/journal-starter">Journal API</a> on AWS using EKS with a complete CI/CD pipeline. Features include cluster provisioning, service mesh, auto-scaling, and GitOps-driven deployments.</td>
       <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">Kubernetes, Terraform, Helm, GitHub Actions, ArgoCD<br><strong>AWS (EKS, VPC, RDS, ALB, ACM, IAM)</strong></td>
       <td style="padding: 12px; border: 1px solid #ddd; text-align: center; white-space: nowrap;"><img src="https://img.shields.io/badge/Building-FFC107?style=flat&logo=progress&logoColor=black" /></td>
     </tr>
