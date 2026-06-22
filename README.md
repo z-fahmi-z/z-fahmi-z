@@ -20,7 +20,6 @@
   </div>
 </blockquote>
 
-
 <h3>Projects</h3>
 <table align="center" style="width: 100%; border-collapse: collapse;">
   <thead>
@@ -33,17 +32,23 @@
   </thead>
   <tbody>
     <tr>
+      <td style="padding: 12px; border: 1px solid #ddd; text-align: center;"><a href="https://github.com/z-fahmi-z/eks-deployment">EKS + GitOps Deployment</a></td>
+      <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">Deploys the <a href="https://github.com/z-fahmi-z/journal-starter">Journal API</a> on AWS using EKS with a complete CI/CD pipeline. Features include cluster provisioning, service mesh, auto-scaling, and GitOps-driven deployments.</td>
+      <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">Kubernetes, Terraform, Helm, GitHub Actions, ArgoCD<br><strong>AWS (EKS, VPC, RDS, ALB, ACM, IAM)</strong></td>
+      <td style="padding: 12px; border: 1px solid #ddd; text-align: center; white-space: nowrap;"><img src="https://img.shields.io/badge/Building-FFC107?style=flat&logo=progress&logoColor=black" /></td>
+    </tr>
+    <tr>
       <td style="padding: 12px; border: 1px solid #ddd; text-align: center;"><a href="https://github.com/z-fahmi-z/secure-multi-az-ecs-deployment">Secured Multi-AZ ECS Deployment</a></td>
       <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">Deploys a production-grade <a href="https://github.com/z-fahmi-z/journal-starter">Journal API</a> on AWS using ECS Fargate across multiple Availability Zones. The architecture incorporates security best practices, including private subnets, VPC endpoints, least-privilege IAM roles, and encrypted secrets management, with observability via CloudWatch and CloudTrail.</td>
-      <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">Python, Terraform, GitHub Actions<br><strong>AWS (ECS, Fargate, RDS, ALB, ACM),</strong></td>
-      <td style="padding: 12px; border: 1px solid #ddd; text-align: center; white-space: nowrap;"><img src="https://img.shields.io/badge/Building-FFC107?style=flat&logo=progress&logoColor=black" /></td>
-    </tr>  
+      <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">Python, Terraform, GitHub Actions<br><strong>AWS (ECS, Fargate, RDS, ALB, ACM, IAM)</strong></td>
+      <td style="padding: 12px; border: 1px solid #ddd; text-align: center; white-space: nowrap;"><img src="https://img.shields.io/badge/Completed-4CAF50?style=flat&logo=checkmarx&logoColor=white" /></td>
+    </tr>
     <tr>
       <td style="padding: 12px; border: 1px solid #ddd; text-align: center;"><a href="https://github.com/z-fahmi-z/config-management">Configuration Management</a></td>
       <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">Deploys a static web game <a href="https://github.com/z-fahmi-z/void-runner">Void Runner</a> to the cloud using Terraform for provisioning and Ansible for configuration, including basic security hardening.</td>
       <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">Terraform, Ansible, Nginx, Linux, Bash<br><strong>DigitalOcean</strong></td>
       <td style="padding: 12px; border: 1px solid #ddd; text-align: center; white-space: nowrap;"><img src="https://img.shields.io/badge/Completed-4CAF50?style=flat&logo=checkmarx&logoColor=white" /></td>
-    </tr>  
+    </tr>
   </tbody>
 </table>
 
