@@ -15,7 +15,7 @@
       💡 About Me
     </p>
     <p style="margin: 10px 0 0 0; text-align: left; line-height: 1.6;">
-      Started out in the backend trenches writing Java and automating API test suites, but my curiosity quickly pulled me deeper into the infrastructure layer. Now, I’m navigating the intersection of DevOps, DevSecOps and cloud-native architectures. I’m a firm believer in the growth mindset especially in this industry. I see every deployment as a lesson and every new challenge as an opportunity to level up. The goal? Not just to master DevOps and cloud engineering, but to keep pushing boundaries, learning relentlessly, and shaping the future of reliable, modern infrastructure.
+      Started out in the backend trenches writing Java and automating API test suites, but my curiosity quickly pulled me deeper into the infrastructure layer. Now, I’m navigating the intersection of DevOps, DevSecOps and cloud-native architectures. I’m a firm believer in the growth mindset especially in this industry.
     </p>
   </div>
 </blockquote>
