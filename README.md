@@ -1,1 +1,1 @@
-<img src="loading.svg" width="100%" alt="loading">
+<img src="./assets/loading.svg" width="100%" alt="loading">
