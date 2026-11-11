@@ -25,8 +25,8 @@
 
   <!-- brackets -->
   <g font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="30" font-weight="bold" fill="#39ff14" filter="url(#glow)">
-    <text x="10" y="30">[</text>
-    <text x="692" y="30">]</text>
+    <text x="29" y="28.5">[</text>
+    <text x="680" y="28.5">]</text>
   </g>
 
   <g clip-path="url(#cells)">
@@ -34,7 +34,7 @@
     <rect x="40" y="12" width="650" height="16" fill="#39ff14" mask="url(#dots)" opacity="0.7"/>
     <!-- opaque travelling bar (█) -->
     <g filter="url(#glow)">
-      <rect x="40" y="12" width="0" height="16" fill="#39ff14">
+      <rect x="40" y="12" width="0" height="17" fill="#39ff14">
         <animate attributeName="width" calcMode="discrete" dur="6s" repeatCount="indefinite"
           values="0;65;130;195;260;325;390;455;520;585;650"
           keyTimes="0;0.0909;0.1818;0.2727;0.3636;0.4545;0.5455;0.6364;0.7273;0.8182;0.9091"/>
@@ -44,16 +44,16 @@
 
   <!-- percentage -->
   <g font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="22" font-weight="bold" fill="#39ff14" text-anchor="end" filter="url(#glow)">
-    <text x="794" y="27" opacity="1">0%<animate attributeName="opacity" values="1;0;0" keyTimes="0;0.0909;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
-    <text x="794" y="27" opacity="0">10%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.0909;0.1818;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
-    <text x="794" y="27" opacity="0">20%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.1818;0.2727;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
-    <text x="794" y="27" opacity="0">30%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.2727;0.3636;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
-    <text x="794" y="27" opacity="0">40%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.3636;0.4545;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
-    <text x="794" y="27" opacity="0">50%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.4545;0.5455;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
-    <text x="794" y="27" opacity="0">60%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.5455;0.6364;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
-    <text x="794" y="27" opacity="0">70%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.6364;0.7273;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
-    <text x="794" y="27" opacity="0">80%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.7273;0.8182;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
-    <text x="794" y="27" opacity="0">90%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.8182;0.9091;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
-    <text x="794" y="27" opacity="0">100%<animate attributeName="opacity" values="0;1" keyTimes="0;0.9091" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+    <text x="750" y="28" opacity="1">0%<animate attributeName="opacity" values="1;0;0" keyTimes="0;0.0909;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+    <text x="750" y="28" opacity="0">10%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.0909;0.1818;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+    <text x="750" y="28" opacity="0">20%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.1818;0.2727;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+    <text x="750" y="28" opacity="0">30%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.2727;0.3636;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+    <text x="750" y="28" opacity="0">40%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.3636;0.4545;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+    <text x="750" y="28" opacity="0">50%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.4545;0.5455;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+    <text x="750" y="28" opacity="0">60%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.5455;0.6364;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+    <text x="750" y="28" opacity="0">70%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.6364;0.7273;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+    <text x="750" y="28.5" opacity="0">80%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.7273;0.8182;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+    <text x="750" y="28.5" opacity="0">90%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.8182;0.9091;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+    <text x="750" y="28.5" opacity="0">100%<animate attributeName="opacity" values="0;1" keyTimes="0;0.9091" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
   </g>
 </svg>
