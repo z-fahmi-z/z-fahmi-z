@@ -1,47 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="64" viewBox="0 0 800 64">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="40" viewBox="0 0 800 40">
   <defs>
-    <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="40" y1="0" x2="690" y2="0">
-      <stop offset="0" stop-color="#00f0ff"/>
-      <stop offset="0.5" stop-color="#b66cff"/>
-      <stop offset="1" stop-color="#ff2a85"/>
-    </linearGradient>
-    <filter id="glow" x="-5%" y="-40%" width="110%" height="180%">
-      <feGaussianBlur stdDeviation="2.5" result="b"/>
+    <filter id="glow" x="-5%" y="-100%" width="110%" height="300%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <pattern id="dotpat" width="6" height="6" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1.3" fill="#fff"/>
-      <circle cx="4.5" cy="4.5" r="1.3" fill="#fff"/>
+    <pattern id="dotpat" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#fff"/>
+      <circle cx="3" cy="3" r="0.8" fill="#fff"/>
     </pattern>
-    <mask id="dots"><rect x="0" y="0" width="800" height="64" fill="url(#dotpat)"/></mask>
+    <mask id="dots"><rect x="0" y="0" width="800" height="40" fill="url(#dotpat)"/></mask>
     <clipPath id="cells">
-      <rect x="40" y="12" width="61" height="40" rx="3"/>
-      <rect x="105" y="12" width="61" height="40" rx="3"/>
-      <rect x="170" y="12" width="61" height="40" rx="3"/>
-      <rect x="235" y="12" width="61" height="40" rx="3"/>
-      <rect x="300" y="12" width="61" height="40" rx="3"/>
-      <rect x="365" y="12" width="61" height="40" rx="3"/>
-      <rect x="430" y="12" width="61" height="40" rx="3"/>
-      <rect x="495" y="12" width="61" height="40" rx="3"/>
-      <rect x="560" y="12" width="61" height="40" rx="3"/>
-      <rect x="625" y="12" width="61" height="40" rx="3"/>
+      <rect x="40" y="12" width="61" height="16" rx="2"/>
+      <rect x="105" y="12" width="61" height="16" rx="2"/>
+      <rect x="170" y="12" width="61" height="16" rx="2"/>
+      <rect x="235" y="12" width="61" height="16" rx="2"/>
+      <rect x="300" y="12" width="61" height="16" rx="2"/>
+      <rect x="365" y="12" width="61" height="16" rx="2"/>
+      <rect x="430" y="12" width="61" height="16" rx="2"/>
+      <rect x="495" y="12" width="61" height="16" rx="2"/>
+      <rect x="560" y="12" width="61" height="16" rx="2"/>
+      <rect x="625" y="12" width="61" height="16" rx="2"/>
     </clipPath>
   </defs>
 
-  <rect width="800" height="64" rx="8" fill="#0d1117"/>
-
   <!-- brackets -->
-  <g font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="44" font-weight="bold" fill="url(#g)" filter="url(#glow)">
-    <text x="6" y="46">[</text>
-    <text x="690" y="46">]</text>
+  <g font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="30" font-weight="bold" fill="#39ff14" filter="url(#glow)">
+    <text x="10" y="30">[</text>
+    <text x="692" y="30">]</text>
   </g>
 
   <g clip-path="url(#cells)">
     <!-- sparse track (░) -->
-    <rect x="40" y="12" width="650" height="40" fill="url(#g)" mask="url(#dots)" opacity="0.55"/>
+    <rect x="40" y="12" width="650" height="16" fill="#39ff14" mask="url(#dots)" opacity="0.7"/>
     <!-- opaque travelling bar (█) -->
     <g filter="url(#glow)">
-      <rect x="40" y="12" width="0" height="40" fill="url(#g)">
+      <rect x="40" y="12" width="0" height="16" fill="#39ff14">
         <animate attributeName="width" calcMode="discrete" dur="6s" repeatCount="indefinite"
           values="0;65;130;195;260;325;390;455;520;585;650"
           keyTimes="0;0.0909;0.1818;0.2727;0.3636;0.4545;0.5455;0.6364;0.7273;0.8182;0.9091"/>
@@ -50,17 +43,17 @@
   </g>
 
   <!-- percentage -->
-  <g font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="30" font-weight="bold" fill="#39ff14" text-anchor="end" filter="url(#glow)">
-    <text x="794" y="42" opacity="1">0%<animate attributeName="opacity" values="1;0;0" keyTimes="0;0.0909;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
-    <text x="794" y="42" opacity="0">10%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.0909;0.1818;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
-    <text x="794" y="42" opacity="0">20%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.1818;0.2727;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
-    <text x="794" y="42" opacity="0">30%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.2727;0.3636;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
-    <text x="794" y="42" opacity="0">40%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.3636;0.4545;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
-    <text x="794" y="42" opacity="0">50%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.4545;0.5455;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
-    <text x="794" y="42" opacity="0">60%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.5455;0.6364;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
-    <text x="794" y="42" opacity="0">70%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.6364;0.7273;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
-    <text x="794" y="42" opacity="0">80%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.7273;0.8182;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
-    <text x="794" y="42" opacity="0">90%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.8182;0.9091;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
-    <text x="794" y="42" opacity="0">100%<animate attributeName="opacity" values="0;1" keyTimes="0;0.9091" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+  <g font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="22" font-weight="bold" fill="#39ff14" text-anchor="end" filter="url(#glow)">
+    <text x="794" y="27" opacity="1">0%<animate attributeName="opacity" values="1;0;0" keyTimes="0;0.0909;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+    <text x="794" y="27" opacity="0">10%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.0909;0.1818;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+    <text x="794" y="27" opacity="0">20%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.1818;0.2727;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+    <text x="794" y="27" opacity="0">30%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.2727;0.3636;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+    <text x="794" y="27" opacity="0">40%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.3636;0.4545;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+    <text x="794" y="27" opacity="0">50%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.4545;0.5455;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+    <text x="794" y="27" opacity="0">60%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.5455;0.6364;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+    <text x="794" y="27" opacity="0">70%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.6364;0.7273;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+    <text x="794" y="27" opacity="0">80%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.7273;0.8182;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+    <text x="794" y="27" opacity="0">90%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.8182;0.9091;1" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+    <text x="794" y="27" opacity="0">100%<animate attributeName="opacity" values="0;1" keyTimes="0;0.9091" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
   </g>
 </svg>
